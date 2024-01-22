@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+
+}
+
+nav {
+  background-color: #0e2954;
+  height: 50px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+label.logo {
+  font-size: 18px;
+  color: rgb(239, 235, 235);
+  line-height: 50px;
+  padding: 0 50px;
+
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+
+}
+
+nav ul li {
+  display: inline;
+  text-transform: uppercase;
+  line-height: 20px;
+  padding: 10px;
+}
+
+nav ul li a {
+  color: #a9b2be;
+  font-size: 14px;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: skyblue;
+  color: white;
+  font-family: sans-serif;
+  padding-top: 20px;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 80vh;
+}
+
+.content {
+  /* flex: 1; */
+  margin-right: 20px;
+  text-align: justify;
+  padding: 100px 50px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.name {
+  background-color: black;
+  display: inline;
+}
+
+label.wd {
+  background-color: black;
+
+}
+
+button {
+  background-color: black;
+  color: #eeeeee;
+  padding: 12px;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+img {
+  /* flex: 1; */
+  height: 200px;
+  width: 450px;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+}
+
+hr {
+  border: 0;
+  background-color: #0e2954;
+  height: 0.5px;
+  margin: 30px;
+}
+
+.section2 {
+  width: 100%;
+  height: 100vh;
+  background-color: lavender;
+  color: #1f6e8c;
+  padding: 20px;
+  margin-top: 60px;
+  font-family: sans-serif;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.profimg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+
+}
+
+.about p {
+  margin-top: 50px;
+  width: 65%;
+  text-align: center;
+  line-height: 25px;
+}
+
+.section3 {
+  width: 100%;
+  height: 100vh;
+  background-color: lavender;
+  color: #1f6e8c;
+  padding: 20px;
+  margin-top: 60px;
+  font-family: sans-serif;
+}
+
+.my_skills {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin: 25%;
+  margin-top: 50px;
+  row-gap: 2rem;
+}
+
+.wbskill p {
+  margin-top: 10px;
+  line-height: 24px;
+}
+
+.wbimg img {
+  height: 100px;
+  width: 100px;
+
+}
+
+.rapping img {
+  height: 100px;
+  width: 100px;
+}
+
+.rapintro p {
+  margin-top: 10px;
+  line-height: 24px;
+}
+
+.section4 {
+  width: 100%;
+  height: 100vh;
+  background-color: lavender;
+  color: #1f6e8c;
+  padding: 20px;
+  margin-top: 60px;
+  font-family: sans-serif;
+}
+
+.contact_me {
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  line-height: 40px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  overflow-wrap: break-word;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 80%;
+  margin: auto;
+
+}
+
+.container2 a {
+  color: #1f6e8c;
+  padding: 30px;
+  margin: 20px;
+}
+
+.address {
+  width: 30%;
+  font-size: 15px;
+  text-align: center;
+}
+
+.phone {
+  width: 30%;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.email {
+  width: 30%;
+  font-size: 15px;
+  text-align: center;
+}
+
+.icon {
+  min-width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer {
+  height: 20vh;
+  color: black;
+  background-color: #1f6e8c;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.footer>a {
+  margin: 30px;
+  padding: 30px;
+  color: #eeeeee;
+}
+
+.footer>p {
+  margin-top: 50px;
+  text-align: start;
+}
+
+@media screen and (max-width: 768px) {
+  label.logo {
+    padding: 0 10px;
+  }
+
+  nav ul {
+    display: block;
+    margin-top: auto;
+    margin-right: auto;
+    background-color: #eeeeee;
+    padding: auto;
+    width: 100%;
+  }
+
+  nav ul li a {
+    font-size: 11px;
+  }
+
+  nav ul li a:hover {
+    color: #0e2954;
+  }
+
+  .content {
+    flex: initial;
+    padding: 40px 25px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  img {
+    margin-right: 0;
+    flex: initial;
+
+  }
+
+  .section2 p {
+    text-align: justify;
+    width: 90%;
+    max-height: 100%;
+
+  }
+
+  .profimg {
+    height: 80px;
+    width: 100px;
+    border-radius: 0;
+  }
+
+  .about p {
+    font-size: 15px;
+    line-height: 150%;
+  }
+
+  .my_skills {
+    margin: 10px;
+    padding: 0;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    gap: 0;
+    width: 100%;
+    margin: 0;
+    line-height: 10px;
+  }
+
+  .wbimg {
+    margin-top: 15px;
+    min-height: 80px;
+    min-width: 80px;
+  }
+
+  .wbskill {
+    font-size: 14px;
+  }
+
+  .rapping {
+    min-width: 80px;
+    min-height: 80px;
+  }
+
+  .rapintro {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 80%;
+  }
+
+  .container2 a {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  .address {
+    font-size: 12px;
+    width: 200px;
+
+  }
+
+  .phone {
+    font-size: 12px;
+    text-align: center;
+    width: 110px;
+
+  }
+
+  .email {
+    font-size: 12px;
+    text-align: center;
+    width: 120px;
+  }
+
+  .footer {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-size: 10px;
+  }
+
+
+
+}
